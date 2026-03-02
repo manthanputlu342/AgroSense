@@ -1,0 +1,7 @@
+{
+  "name": "Remix: AgroSense",
+  "description": "A smart farming application to monitor sensor data, control hardware, and view historical readings.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
