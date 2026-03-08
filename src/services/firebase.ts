@@ -7,12 +7,12 @@ import { getFirestore } from 'firebase/firestore';
 // Your web app's Firebase configuration
 // This is sourced from the .env file
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "smart-farming-e0a57.firebaseapp.com",
-  projectId: "smart-farming-e0a57",
-  storageBucket: "smart-farming-e0a57.firebasestorage.app",
-  messagingSenderId: "1027764915797",
-  appId: "1:1027764915797:web:ae44df898b533ca23a4edc",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
   measurementId: "G-BGB20QFEGH"
 };
 
