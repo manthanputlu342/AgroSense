@@ -17,9 +17,14 @@ export default defineConfig(({mode}) => {
       },
     },
     server: {
-      // HMR is disabled in AI Studio via DISABLE_HMR env var.
-      // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
+      // HMR is disabled in AI Studio via DISABLE_HMR env var.      // Do not modify—file watching is disabled to prevent flickering during agent edits.
       hmr: process.env.DISABLE_HMR !== 'true',
+      
+      // ALLOWED HOSTS ADDED HERE to fix the Render deployment issue
+      allowedHosts: [
+        'agrosense-smart-plant-care-system.onrender.com'
+      ]
+      // Note: If you add a custom domain later, you can change the above to: allowedHosts: true
     },
   };
 });

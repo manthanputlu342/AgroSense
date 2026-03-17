@@ -4,8 +4,8 @@
 #include <time.h>
 
 // 1. YOUR CREDENTIALS
-#define WIFI_SSID "J2"
-#define WIFI_PASSWORD "rajeshdas"
+#define WIFI_SSID "Nothing 1"
+#define WIFI_PASSWORD "manthan342"
 #define API_KEY "AIzaSyCDHfVYVcnY3jXJw36f8dI4fWD-YWhUItA"
 #define FIREBASE_PROJECT_ID "smart-farming-e0a57"
 #define DATABASE_URL "https://smart-farming-e0a57-default-rtdb.asia-southeast1.firebasedatabase.app"
